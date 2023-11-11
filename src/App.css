@@ -4,26 +4,36 @@ body {
 
 .header {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header img {
-  width: 10vw;
+  width: 6vw;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-}
-
-.orders {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .container img {
   margin: 5px;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   width: 20vw;
+}
+
+.menu-container {
+  font-size: 1.5rem;
+  font-weight: 1000;
+  background-color:cornsilk;
+  margin: 2rem;
+  border: solid 7px darkgrey;
+  border-radius: 10px;
+
+}
+
+.menu-header {
+  background-color:rgb(219, 195, 159);
+  text-align: center;
 }

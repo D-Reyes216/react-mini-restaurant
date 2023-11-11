@@ -1,0 +1,17 @@
+.orders {
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+    border: solid 7px darkgray;
+    border-radius: 10px;
+    margin: 2rem;
+    min-height: 50vh;
+    min-width: 30vw;
+}
+
+.orders-header {
+    background-color:rgb(219, 195, 159);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}

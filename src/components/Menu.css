@@ -1,0 +1,29 @@
+.menu-container {
+    font-size: 2rem;
+    font-weight: 1000;
+    background-color:cornsilk;
+    margin: 2rem;
+    border: solid 7px darkgrey;
+    border-radius: 10px;
+
+}
+
+.menu-header {
+    background-color:rgb(219, 195, 159);
+    text-align: center;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list {
+    font-size: 1.25rem;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.list img {
+    width: 5vw;
+}

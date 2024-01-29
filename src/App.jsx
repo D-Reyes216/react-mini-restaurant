@@ -9,37 +9,37 @@ const menu = [ //array of objects to be displayed on the menu
       id:1,
       name:"Regular Burger",
       price:3.00,
-      img:<img src="/src/assets/low-poly-burger-with-plate.png" alt="regular burger" />
+      img:<img src="https://github.com/D-Reyes216/react-mini-restaurant/blob/main/src/assets/low-poly-burger-with-plate.png?raw=true" alt="regular burger" />
   },
   {
       id:2,
       name:"Cheeseburger",
       price:2.00,
-      img:<img src="/src/assets/low-poly-cheeseburger.png" alt="cheeseburger" />
+      img:<img src="https://github.com/D-Reyes216/react-mini-restaurant/blob/main/src/assets/low-poly-cheeseburger.png?raw=true" alt="cheeseburger" />
   },
   {
       id:3,
       name:"Kid's Burger",
       price:1.00,
-      img:<img src="/src/assets/low-poly-kids-burger.png" alt="kid's burger" />
+      img:<img src="https://github.com/D-Reyes216/react-mini-restaurant/blob/main/src/assets/low-poly-kids-burger.png?raw=true" alt="kid's burger" />
   },
   {
       id:4,
       name:"Triple Cheeseburger",
       price:3.50,
-      img:<img src="/src/assets/low-poly-triple-cheeseburger.png" alt="triple cheeseburger" />
+      img:<img src="https://github.com/D-Reyes216/react-mini-restaurant/blob/main/src/assets/low-poly-triple-cheeseburger.png?raw=true" alt="triple cheeseburger" />
   },
   {
       id:5,
       name:"Fries",
       price:1.50,
-      img:<img src="/src/assets/low-poly-fries.png" alt="fries" />
+      img:<img src="https://github.com/D-Reyes216/react-mini-restaurant/blob/main/src/assets/low-poly-fries.png?raw=true" alt="fries" />
   },
   {
       id:6,
       name:"Soda",
       price:1.20,
-      img:<img src="/src/assets/low-poly-soda.png" alt="soda" />
+      img:<img src="https://github.com/D-Reyes216/react-mini-restaurant/blob/main/src/assets/low-poly-soda.png?raw=true" alt="soda" />
   }
 ]
 

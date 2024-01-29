@@ -1,5 +1,6 @@
 import './App.css';
 import Header from "./components/Header.jsx";
+import Total from './components/Total.jsx';
 import { useState } from "react";
 
 
@@ -88,7 +89,8 @@ function App() {
       <div className="orders">
         <div className="orders-header">Your Orders</div>
         <div className="checkout">
-          <div>Total: ${(totalCost.toFixed(2))} </div>
+          {/* <div>Total: ${(totalCost.toFixed(2))} </div> */}
+          <div>Total: $<Total total={totalCost}/> </div>
             {/* button to "buy" the food */}
             <button onClick={checkout}>Checkout</button>
           </div>
